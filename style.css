@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 25%;
+    margin: auto;
+    background-color: black;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.row>button{
+    background-color: #d8d9db;
+    border: 1px solid black;
+}
+.row>button:last-child {
+    background-color: #df974c;
+    color: white;
+    border-right: none;
+}
+.row>button:last-child:hover{
+    background-color: #dfb07e;
+}
+.row>button:last-child:active{
+    background-color: #dd8d37;
+}
+.row>button:first-child {
+    border-left: none;
+}
+.row:last-child >* {
+    border-bottom: none;
+}
+
+
+.margin-and-padding {
+    margin: 0;
+    padding: 20px 5px 20px 5px;
+}
+.col1 {
+    width: 25%;
+}
+.col2 {
+    width: 50%;
+}
+.col3 {
+    width: 75%;
+}
+.col4 {
+    width: 100%;
+}
+.dark-mode-text {
+  color: white;
+  text-align: right;
+}
+.calc-button {
+    height: 100px;
+    font-size: inherit;
+}
+button:hover {
+    background-color: #ebebeb ;
+}
+button:active {
+    background-color: #bbbcbe ;
+}
